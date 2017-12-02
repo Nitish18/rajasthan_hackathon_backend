@@ -99,7 +99,7 @@ def beginTraining(year, id):
 	training_data_set = pandas.DataFrame()
 	properties = [
 		"ppmLevel",
-		"bacteriaTypeInAir",
+		"bacteriaTypeInAir", 
 		"phLevel",
 		"bacteriaTypeInWater",
 		"foodFiberContent",
