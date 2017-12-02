@@ -74,7 +74,7 @@ def fetchYearDelta(request):
 	res = json.dumps({"data": disease_delta_list})
 	return HttpResponse(res)
 
-def makePredictions(dataset_classifier, year, id):
+def makePredictions(dataset_classifier, year, id): 
 	print "make predictions called"
 	data = getSampleData(year)
 	for doc in data:
