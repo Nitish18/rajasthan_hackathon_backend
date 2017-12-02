@@ -53,7 +53,7 @@ def fetchEachYearData(request):
 		q = {"year":year}
 	records = list(db.users.find(q,{'_id':0}))
 	res = json.dumps({"data": records})
-	return HttpResponse(res)
+	return HttpResponse(res) 
 
 def fetchYearDelta(request):
 	"""
