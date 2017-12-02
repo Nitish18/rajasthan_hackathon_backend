@@ -89,7 +89,7 @@ def makePredictions(dataset_classifier, year, id):
 		doc['diseaseType'] = output[0]
 		insertRecord(doc)
 	changeTrainingStatus(id)
-	print "Returning"
+	print "Returning" 
 	return
 
 def beginTraining(year, id): 
